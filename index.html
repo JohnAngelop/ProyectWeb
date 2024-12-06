@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado con el menú de navegación -->
+    <header>
+        <div class="container">
+            <h1>Mi Blog Personal</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pagina1.html">Página 1</a></li>
+                    <li><a href="pagina2.html">Página 2</a></li>
+                    <li><a href="pagina3.html">Página 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <section>
+            <article>
+                <img src="blog.png" alt="Bienvenida al blog" width="50%" height="auto">
+                <h2><I>Bienvenidos a mi blog</I></h2>
+                <p>Este blog fue creado con la finalidad de compartir y de poner a prueba los conocimientos en tecnologías web.</p>
+                <!-- Imagen de bienvenida -->
+                
+            </article>
+
+            <article>
+                <h2>Últimas publicaciones</h2>
+                <ul>
+                    <li><a href="pagina1.html">Post sobre tecnología</a></li>
+                    <li><a href="pagina2.html">Reflexiones sobre la vida</a></li>
+                    <li><a href="pagina3.html">Mis libros favoritos</a></li>
+                </ul>
+                <!-- Imagen de publicaciones -->
+                <img src="images/publicaciones.jpg" alt="Últimas publicaciones" width="100%" height="auto">
+            </article>
+        </section>
+
+        <!-- Tabla con horarios de publicación -->
+        <section>
+            <h2>Horarios de publicación</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Contenido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>9:00 AM</td>
+                        <td>Post sobre tecnología</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>3:00 PM</td>
+                        <td>Reflexiones sobre la vida</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>6:00 PM</td>
+                        <td>Recomendación de libros</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Video relacionado con la inteligencia artificial -->
+        <section>
+            <h2>Introducción a la Inteligencia Artificial</h2>
+            <p>Este video te introduce a los conceptos básicos de la inteligencia artificial:</p>
+            <video width="50%" controls>
+                <source src="videos/introduccion_ia.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </section>
+        <h2></h2>
+        <h2>=======================================================================================================================</h2>
+        <h2></h2>
+
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+    <p>Si tienes alguna consulta o quieres ponerte en contacto conmigo, por favor completa el siguiente formulario:</p>
+
+    <!-- Botón para abrir la ventana emergente -->
+    <button id="openModal">CONSULTAS</button>
+
+    <!-- Ventana emergente (modal) -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <!-- Formulario de contacto -->
+            <form action="enviar_contacto.php" method="post">
+                <h3><label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required></h3>
+
+                <h3><label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required></h3>
+
+                <h3><label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="2" required></textarea></h3>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script>
+ 
+    var modal = document.getElementById("myModal");
+
+    var btn = document.getElementById("openModal");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+        <h2></h2>
+        <h2>=======================================================================================================================</h2>
+        <h2></h2>
+        <h2></h2>
+        <h2>=======================================================================================================================</h2>
+        <h2></h2>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal | Nombre: John Angelo Valarezo Jumbo | UTPL .</p>
+    </footer>
+
+</body>
+</html>
