@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #5247ec;
+    background-color: #7df031;
     color: white;
     padding: 20px;
 }
@@ -33,7 +33,7 @@ header nav ul li a {
 }
 
 footer {
-    background-color: #180560;
+    background-color: #056b13;
     color: white;
     text-align: center;
     padding: 5px;
@@ -80,7 +80,7 @@ table th, table td {
     background-color: #fff;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #4008d0;
+    border: 1px solid #3ad107;
     width: 80%; 
     max-width: 500px; 
 }
