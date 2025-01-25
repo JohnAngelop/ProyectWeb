@@ -163,6 +163,7 @@ table th, table td {
     min-height: 400px;
     background-color: orange;
     padding: 20px;
+    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -177,6 +178,7 @@ table th, table td {
     min-height: 400px;
     background-color: yellow;
     padding: 20px;
+    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -191,6 +193,7 @@ table th, table td {
     min-height: 400px;
     background-color: coral;
     padding: 20px;
+    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -205,10 +208,30 @@ table th, table td {
     min-height: 400px;
     background-color: tomato;
     padding: 20px;
+    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
 }
 #efecto4:hover{
     background-color:crimson;
+}
+
+#circulo{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+    margin-left: 15%;
+    min-width: 1000px;
+    line-height: 30px;
+    display: flex;
+    padding: 20px;
+    text-align: auto;
+    border-radius: 15px;
+    text-align: justify;
+    transition: background-color 0.5s ease-in-out;
+}
+#circulo:hover{
+    background-color: firebrick;
 }
