@@ -140,4 +140,75 @@ table th, table td {
     cursor: pointer;
 }
 
+#efectos {
+    float: left;
+    background-color:firebrick;
+    width: 100%;
+    min-width: 100px;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    line-height: 30px;
+    align-items:center ;
+    border-radius: 20px;
+    transition: background-color 0.8s ease-in-out;
+}
+#efectos:hover{
+    background-color: orangered;
+}
 
+#efecto1{
+    float: left;
+    width: calc(25% - 40px);
+    min-height: 400px;
+    background-color: orange;
+    padding: 20px;
+    line-height: 30px;
+    border-top: 28px solid white;
+    transition: background-color 0.8s ease-in-out;
+}
+#efecto1:hover{
+    background-color:rgb(245, 233, 70);
+}
+
+#efecto2{
+    float: left;
+    width: calc(25% - 40px);
+    min-height: 400px;
+    background-color: yellow;
+    padding: 20px;
+    line-height: 30px;
+    border-top: 28px solid white;
+    transition: background-color 0.8s ease-in-out;
+}
+#efecto2:hover{
+    background-color:rgb(252, 179, 44);
+}
+
+#efecto3{
+    float: left;
+    width: calc(25% - 40px);
+    min-height: 400px;
+    background-color: coral;
+    padding: 20px;
+    line-height: 30px;
+    border-top: 28px solid white;
+    transition: background-color 0.8s ease-in-out;
+}
+#efecto3:hover{
+    background-color:lightcoral;
+}
+
+#efecto4{
+    float: left;
+    width: calc(25% - 40px);
+    min-height: 400px;
+    background-color: tomato;
+    padding: 20px;
+    line-height: 30px;
+    border-top: 28px solid white;
+    transition: background-color 0.8s ease-in-out;
+}
+#efecto4:hover{
+    background-color:crimson;
+}
