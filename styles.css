@@ -141,7 +141,6 @@ table th, table td {
 }
 
 #efectos {
-    float: left;
     background-color:firebrick;
     width: 100%;
     min-width: 100px;
@@ -163,7 +162,6 @@ table th, table td {
     min-height: 400px;
     background-color: orange;
     padding: 20px;
-    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -178,7 +176,6 @@ table th, table td {
     min-height: 400px;
     background-color: yellow;
     padding: 20px;
-    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -193,7 +190,6 @@ table th, table td {
     min-height: 400px;
     background-color: coral;
     padding: 20px;
-    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -208,7 +204,6 @@ table th, table td {
     min-height: 400px;
     background-color: tomato;
     padding: 20px;
-    display: flex;
     line-height: 30px;
     border-top: 28px solid white;
     transition: background-color 0.8s ease-in-out;
@@ -227,11 +222,69 @@ table th, table td {
     line-height: 30px;
     display: flex;
     padding: 20px;
-    text-align: auto;
+    text-align: center;
     border-radius: 15px;
     text-align: justify;
     transition: background-color 0.5s ease-in-out;
 }
 #circulo:hover{
     background-color: firebrick;
+}
+
+#adv{
+    margin: o;
+    width: 100%;
+    padding: 10px;
+    background-color:lightgreen;
+    color: rgb(0, 0, 0);
+    border-bottom: 30px solid white ;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#adv:hover{
+    background-color: gainsboro;
+}
+
+#int1{
+    float: left;
+    width: calc(50% - 40px);
+    min-height: 200px;
+    background-color: gray;
+    padding: 20px;
+    line-height: 30px;
+    transition: background-color 0.7s ease-in-out;
+}
+
+#int1:hover{
+    background-color:white;
+}
+
+#int2{
+    float: left;
+    width: calc(50% - 40px);
+    min-height: 200px;
+    background-color: gray;
+    padding: 20px;
+    line-height: 30px;
+    transition: background-color 0.7s ease-in-out;
+}
+
+#int2:hover{
+    background-color:white;
+}
+
+#int3{
+    float: left;
+    width: calc(100% - 40px);
+    min-height: 500px;
+    background-color: gray;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+    transition: background-color 0.7s ease-in-out;
+}
+
+#int3:hover{
+    background-color:white;
 }
